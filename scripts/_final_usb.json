@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "samsung-t9-2tb",
+    "name": "Samsung T9 Portable SSD 2TB",
+    "brand": "Samsung",
+    "year": 2023,
+    "score": 96,
+    "blurb": "ה-Samsung T9 מציע מהירויות USB 3.2 Gen 2x2 מטורפות לכל יוצר תוכן.",
+    "priceIls": 750,
+    "priceUsd": 190,
+    "specs": {
+      "capacity": 2000,
+      "interface": "USB 3.2 Gen 2x2",
+      "connector": "USB-C",
+      "seqRead": 2000,
+      "seqWrite": 1950,
+      "driveType": "External SSD",
+      "encryption": "Hardware AES-256",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "samsung-t9-1tb",
+    "name": "Samsung T9 Portable SSD 1TB",
+    "brand": "Samsung",
+    "year": 2023,
+    "score": 95,
+    "blurb": "כונן ה-T9 בנפח 1TB משלב מהירות אדירה ועמידות לעבודה בשטח.",
+    "priceIls": 430,
+    "priceUsd": 110,
+    "specs": {
+      "capacity": 1000,
+      "interface": "USB 3.2 Gen 2x2",
+      "connector": "USB-C",
+      "seqRead": 2000,
+      "seqWrite": 1950,
+      "driveType": "External SSD",
+      "encryption": "Hardware AES-256",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "samsung-t7-shield-2tb",
+    "name": "Samsung T7 Shield 2TB",
+    "brand": "Samsung",
+    "year": 2022,
+    "score": 88,
+    "blurb": "ה-T7 Shield עמיד למים ולאבק עם מהירות USB 3.2 Gen 2 יציבה.",
+    "priceIls": 620,
+    "priceUsd": 160,
+    "specs": {
+      "capacity": 2000,
+      "interface": "USB 3.2 Gen 2",
+      "connector": "USB-C",
+      "seqRead": 1050,
+      "seqWrite": 1000,
+      "driveType": "External SSD",
+      "encryption": "Hardware AES-256",
+      "warranty": 3
+    }
+  },
+  {
+    "id": "samsung-t7-shield-1tb",
+    "name": "Samsung T7 Shield 1TB",
+    "brand": "Samsung",
+    "year": 2022,
+    "score": 87,
+    "blurb": "כונן ה-T7 Shield בנפח 1TB עמיד לנפילות ואידיאלי לצילום בשטח.",
+    "priceIls": 380,
+    "priceUsd": 95,
+    "specs": {
+      "capacity": 1000,
+      "interface": "USB 3.2 Gen 2",
+      "connector": "USB-C",
+      "seqRead": 1050,
+      "seqWrite": 1000,
+      "driveType": "External SSD",
+      "encryption": "Hardware AES-256",
+      "warranty": 3
+    }
+  },
+  {
+    "id": "samsung-t7-1tb",
+    "name": "Samsung T7 Portable SSD 1TB",
+    "brand": "Samsung",
+    "year": 2020,
+    "score": 86,
+    "blurb": "ה-Samsung T7 הקלאסי מספק מהירות USB 3.2 Gen 2 בעיצוב דק וקומפקטי.",
+    "priceIls": 340,
+    "priceUsd": 90,
+    "specs": {
+      "capacity": 1000,
+      "interface": "USB 3.2 Gen 2",
+      "connector": "USB-C",
+      "seqRead": 1050,
+      "seqWrite": 1000,
+      "driveType": "External SSD",
+      "encryption": "Hardware AES-256",
+      "warranty": 3
+    }
+  },
+  {
+    "id": "samsung-t7-500gb",
+    "name": "Samsung T7 Portable SSD 500GB",
+    "brand": "Samsung",
+    "year": 2020,
+    "score": 85,
+    "blurb": "כונן ה-T7 בנפח 500GB הוא פתרון נייד מהיר במחיר נוח במיוחד.",
+    "priceIls": 220,
+    "priceUsd": 60,
+    "specs": {
+      "capacity": 500,
+      "interface": "USB 3.2 Gen 2",
+      "connector": "USB-C",
+      "seqRead": 1050,
+      "seqWrite": 1000,
+      "driveType": "External SSD",
+      "encryption": "Hardware AES-256",
+      "warranty": 3
+    }
+  },
+  {
+    "id": "samsung-t5-evo-2tb",
+    "name": "Samsung T5 EVO 2TB",
+    "brand": "Samsung",
+    "year": 2023,
+    "score": 70,
+    "blurb": "ה-T5 EVO מציע נפח גדול ועמידות גבוהה במהירות USB 3.2 Gen 1.",
+    "priceIls": 520,
+    "priceUsd": 130,
+    "specs": {
+      "capacity": 2000,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-C",
+      "seqRead": 460,
+      "seqWrite": 460,
+      "driveType": "External SSD",
+      "encryption": "Hardware AES-256",
+      "warranty": 3
+    }
+  },
+  {
+    "id": "sandisk-extreme-pro-portable-ssd-v2-2tb",
+    "name": "SanDisk Extreme Pro Portable SSD V2 2TB",
+    "brand": "SanDisk",
+    "year": 2021,
+    "score": 90,
+    "blurb": "ה-Extreme Pro V2 עמיד למים עם מהירות USB 3.2 Gen 2x2 לעורכי וידאו.",
+    "priceIls": 780,
+    "priceUsd": 200,
+    "specs": {
+      "capacity": 2000,
+      "interface": "USB 3.2 Gen 2x2",
+      "connector": "USB-A + USB-C",
+      "seqRead": 2000,
+      "seqWrite": 2000,
+      "driveType": "External SSD",
+      "encryption": "Hardware AES-256",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "sandisk-extreme-pro-portable-ssd-v2-1tb",
+    "name": "SanDisk Extreme Pro Portable SSD V2 1TB",
+    "brand": "SanDisk",
+    "year": 2021,
+    "score": 89,
+    "blurb": "כונן ה-Extreme Pro V2 בנפח 1TB מאחד מהירות אדירה ועמידות לשטח.",
+    "priceIls": 450,
+    "priceUsd": 120,
+    "specs": {
+      "capacity": 1000,
+      "interface": "USB 3.2 Gen 2x2",
+      "connector": "USB-A + USB-C",
+      "seqRead": 2000,
+      "seqWrite": 2000,
+      "driveType": "External SSD",
+      "encryption": "Hardware AES-256",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "sandisk-extreme-portable-ssd-v2-2tb",
+    "name": "SanDisk Extreme Portable SSD V2 2TB",
+    "brand": "SanDisk",
+    "year": 2021,
+    "score": 85,
+    "blurb": "ה-Extreme V2 עמיד למים ולאבק עם מהירות USB 3.2 Gen 2 לכל מטרה.",
+    "priceIls": 560,
+    "priceUsd": 150,
+    "specs": {
+      "capacity": 2000,
+      "interface": "USB 3.2 Gen 2",
+      "connector": "USB-A + USB-C",
+      "seqRead": 1050,
+      "seqWrite": 1000,
+      "driveType": "External SSD",
+      "encryption": "Hardware AES-256",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "sandisk-extreme-portable-ssd-v2-1tb",
+    "name": "SanDisk Extreme Portable SSD V2 1TB",
+    "brand": "SanDisk",
+    "year": 2021,
+    "score": 84,
+    "blurb": "כונן ה-Extreme V2 בנפח 1TB עמיד ומהיר עם דירוג IP55 לשטח.",
+    "priceIls": 330,
+    "priceUsd": 90,
+    "specs": {
+      "capacity": 1000,
+      "interface": "USB 3.2 Gen 2",
+      "connector": "USB-A + USB-C",
+      "seqRead": 1050,
+      "seqWrite": 1000,
+      "driveType": "External SSD",
+      "encryption": "Hardware AES-256",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "crucial-x9-pro-2tb",
+    "name": "Crucial X9 Pro 2TB",
+    "brand": "Crucial",
+    "year": 2023,
+    "score": 84,
+    "blurb": "ה-Crucial X9 Pro קומפקטי ועמיד עם מהירות USB 3.2 Gen 2 גבוהה.",
+    "priceIls": 540,
+    "priceUsd": 140,
+    "specs": {
+      "capacity": 2000,
+      "interface": "USB 3.2 Gen 2",
+      "connector": "USB-C",
+      "seqRead": 1050,
+      "seqWrite": 1050,
+      "driveType": "External SSD",
+      "encryption": "—",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "crucial-x10-pro-2tb",
+    "name": "Crucial X10 Pro 2TB",
+    "brand": "Crucial",
+    "year": 2023,
+    "score": 91,
+    "blurb": "ה-X10 Pro מספק מהירות USB 3.2 Gen 2x2 אדירה בגוף עמיד למים.",
+    "priceIls": 680,
+    "priceUsd": 175,
+    "specs": {
+      "capacity": 2000,
+      "interface": "USB 3.2 Gen 2x2",
+      "connector": "USB-C",
+      "seqRead": 2100,
+      "seqWrite": 2000,
+      "driveType": "External SSD",
+      "encryption": "—",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "crucial-x10-pro-1tb",
+    "name": "Crucial X10 Pro 1TB",
+    "brand": "Crucial",
+    "year": 2023,
+    "score": 90,
+    "blurb": "כונן ה-X10 Pro בנפח 1TB משלב מהירות 2100MB/s ועמידות לשטח.",
+    "priceIls": 400,
+    "priceUsd": 105,
+    "specs": {
+      "capacity": 1000,
+      "interface": "USB 3.2 Gen 2x2",
+      "connector": "USB-C",
+      "seqRead": 2100,
+      "seqWrite": 2000,
+      "driveType": "External SSD",
+      "encryption": "—",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "crucial-x6-1tb",
+    "name": "Crucial X6 1TB",
+    "brand": "Crucial",
+    "year": 2021,
+    "score": 78,
+    "blurb": "ה-Crucial X6 הקטן והקל מציע נפח 1TB במחיר ידידותי במיוחד.",
+    "priceIls": 260,
+    "priceUsd": 70,
+    "specs": {
+      "capacity": 1000,
+      "interface": "USB 3.2 Gen 2",
+      "connector": "USB-C",
+      "seqRead": 800,
+      "seqWrite": 800,
+      "driveType": "External SSD",
+      "encryption": "—",
+      "warranty": 3
+    }
+  },
+  {
+    "id": "wd-my-passport-ssd-2tb",
+    "name": "WD My Passport SSD 2TB",
+    "brand": "Western Digital",
+    "year": 2022,
+    "score": 86,
+    "blurb": "ה-My Passport SSD משלב מהירות USB 3.2 Gen 2 והצפנת חומרה מובנית.",
+    "priceIls": 590,
+    "priceUsd": 150,
+    "specs": {
+      "capacity": 2000,
+      "interface": "USB 3.2 Gen 2",
+      "connector": "USB-A + USB-C",
+      "seqRead": 1050,
+      "seqWrite": 1000,
+      "driveType": "External SSD",
+      "encryption": "Hardware AES-256",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "wd-my-passport-ssd-1tb",
+    "name": "WD My Passport SSD 1TB",
+    "brand": "Western Digital",
+    "year": 2022,
+    "score": 85,
+    "blurb": "כונן ה-My Passport SSD בנפח 1TB מהיר ומאובטח עם הצפנת AES-256.",
+    "priceIls": 350,
+    "priceUsd": 90,
+    "specs": {
+      "capacity": 1000,
+      "interface": "USB 3.2 Gen 2",
+      "connector": "USB-A + USB-C",
+      "seqRead": 1050,
+      "seqWrite": 1000,
+      "driveType": "External SSD",
+      "encryption": "Hardware AES-256",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "sandisk-extreme-pro-usb-3-2-256gb",
+    "name": "SanDisk Extreme Pro USB 3.2 256GB",
+    "brand": "SanDisk",
+    "year": 2020,
+    "score": 75,
+    "blurb": "ה-Extreme Pro מתכת מציע מהירות שיא בין כונני ה-Flash הניידים.",
+    "priceIls": 300,
+    "priceUsd": 75,
+    "specs": {
+      "capacity": 256,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A",
+      "seqRead": 420,
+      "seqWrite": 380,
+      "driveType": "Flash drive",
+      "encryption": "—",
+      "warranty": 30
+    }
+  },
+  {
+    "id": "sandisk-extreme-pro-usb-3-2-128gb",
+    "name": "SanDisk Extreme Pro USB 3.2 128GB",
+    "brand": "SanDisk",
+    "year": 2020,
+    "score": 74,
+    "blurb": "כונן ה-Extreme Pro בגוף מתכת עמיד מספק מהירות גבוהה במיוחד.",
+    "priceIls": 190,
+    "priceUsd": 50,
+    "specs": {
+      "capacity": 128,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A",
+      "seqRead": 420,
+      "seqWrite": 380,
+      "driveType": "Flash drive",
+      "encryption": "—",
+      "warranty": 30
+    }
+  },
+  {
+    "id": "kingston-datatraveler-max-1tb",
+    "name": "Kingston DataTraveler Max 1TB",
+    "brand": "Kingston",
+    "year": 2021,
+    "score": 87,
+    "blurb": "ה-DataTraveler Max הוא כונן ה-Flash המהיר ביותר עם USB 3.2 Gen 2.",
+    "priceIls": 560,
+    "priceUsd": 140,
+    "specs": {
+      "capacity": 1000,
+      "interface": "USB 3.2 Gen 2",
+      "connector": "USB-C",
+      "seqRead": 1000,
+      "seqWrite": 900,
+      "driveType": "Flash drive",
+      "encryption": "—",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "kingston-datatraveler-max-256gb",
+    "name": "Kingston DataTraveler Max 256GB",
+    "brand": "Kingston",
+    "year": 2021,
+    "score": 86,
+    "blurb": "כונן ה-DataTraveler Max בנפח 256GB מספק מהירות SSD בגוף Flash.",
+    "priceIls": 220,
+    "priceUsd": 55,
+    "specs": {
+      "capacity": 256,
+      "interface": "USB 3.2 Gen 2",
+      "connector": "USB-C",
+      "seqRead": 1000,
+      "seqWrite": 900,
+      "driveType": "Flash drive",
+      "encryption": "—",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "kingston-datatraveler-kyson-128gb",
+    "name": "Kingston DataTraveler Kyson 128GB",
+    "brand": "Kingston",
+    "year": 2020,
+    "score": 65,
+    "blurb": "ה-DataTraveler Kyson במתכת מציע מהירות USB 3.2 טובה במחיר נוח.",
+    "priceIls": 90,
+    "priceUsd": 22,
+    "specs": {
+      "capacity": 128,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A",
+      "seqRead": 200,
+      "seqWrite": 60,
+      "driveType": "Flash drive",
+      "encryption": "—",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "sandisk-ultra-dual-drive-go-128gb",
+    "name": "SanDisk Ultra Dual Drive Go 128GB",
+    "brand": "SanDisk",
+    "year": 2019,
+    "score": 55,
+    "blurb": "ה-Ultra Dual Drive Go מצויד ב-USB-A ו-USB-C להעברה בין מכשירים.",
+    "priceIls": 75,
+    "priceUsd": 18,
+    "specs": {
+      "capacity": 128,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A + USB-C",
+      "seqRead": 150,
+      "seqWrite": 80,
+      "driveType": "Flash drive",
+      "encryption": "—",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "sandisk-ultra-dual-drive-luxe-256gb",
+    "name": "SanDisk Ultra Dual Drive Luxe 256GB",
+    "brand": "SanDisk",
+    "year": 2020,
+    "score": 58,
+    "blurb": "ה-Ultra Dual Drive Luxe במתכת מציע חיבור כפול ונפח גדול לנייד.",
+    "priceIls": 130,
+    "priceUsd": 32,
+    "specs": {
+      "capacity": 256,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A + USB-C",
+      "seqRead": 150,
+      "seqWrite": 90,
+      "driveType": "Flash drive",
+      "encryption": "—",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "sandisk-ultra-flair-usb-3-0-64gb",
+    "name": "SanDisk Ultra Flair USB 3.0 64GB",
+    "brand": "SanDisk",
+    "year": 2016,
+    "score": 45,
+    "blurb": "ה-Ultra Flair בגוף מתכת מציע אמינות ומהירות סבירה במחיר נמוך.",
+    "priceIls": 45,
+    "priceUsd": 11,
+    "specs": {
+      "capacity": 64,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A",
+      "seqRead": 150,
+      "seqWrite": 50,
+      "driveType": "Flash drive",
+      "encryption": "—",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "sandisk-ultra-usb-3-0-64gb",
+    "name": "SanDisk Ultra USB 3.0 64GB",
+    "brand": "SanDisk",
+    "year": 2015,
+    "score": 38,
+    "blurb": "ה-SanDisk Ultra הקלאסי הוא כונן Flash בסיסי ואמין לכל יום.",
+    "priceIls": 40,
+    "priceUsd": 10,
+    "specs": {
+      "capacity": 64,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A",
+      "seqRead": 100,
+      "seqWrite": 30,
+      "driveType": "Flash drive",
+      "encryption": "—",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "sandisk-ultra-fit-usb-3-1-128gb",
+    "name": "SanDisk Ultra Fit USB 3.1 128GB",
+    "brand": "SanDisk",
+    "year": 2017,
+    "score": 42,
+    "blurb": "ה-Ultra Fit הזעיר נשאר תקוע במחשב או ברכב ומציע נפח נוח.",
+    "priceIls": 70,
+    "priceUsd": 17,
+    "specs": {
+      "capacity": 128,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A",
+      "seqRead": 130,
+      "seqWrite": 40,
+      "driveType": "Flash drive",
+      "encryption": "—",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "samsung-fit-plus-256gb",
+    "name": "Samsung FIT Plus 256GB",
+    "brand": "Samsung",
+    "year": 2019,
+    "score": 60,
+    "blurb": "ה-Samsung FIT Plus הזעיר מציע מהירות קריאה גבוהה בגוף עמיד.",
+    "priceIls": 140,
+    "priceUsd": 35,
+    "specs": {
+      "capacity": 256,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A",
+      "seqRead": 400,
+      "seqWrite": 110,
+      "driveType": "Flash drive",
+      "encryption": "—",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "samsung-bar-plus-128gb",
+    "name": "Samsung BAR Plus 128GB",
+    "brand": "Samsung",
+    "year": 2019,
+    "score": 58,
+    "blurb": "ה-Samsung BAR Plus במתכת עמיד למים ולמגנטים עם מהירות מצוינת.",
+    "priceIls": 90,
+    "priceUsd": 22,
+    "specs": {
+      "capacity": 128,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A",
+      "seqRead": 400,
+      "seqWrite": 60,
+      "driveType": "Flash drive",
+      "encryption": "—",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "kingston-datatraveler-100-g3-64gb",
+    "name": "Kingston DataTraveler 100 G3 USB 3.0 64GB",
+    "brand": "Kingston",
+    "year": 2014,
+    "score": 30,
+    "blurb": "ה-DataTraveler 100 G3 הוא כונן Flash בסיסי וזול לאחסון יומיומי.",
+    "priceIls": 40,
+    "priceUsd": 10,
+    "specs": {
+      "capacity": 64,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A",
+      "seqRead": 100,
+      "seqWrite": 20,
+      "driveType": "Flash drive",
+      "encryption": "—",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "corsair-flash-voyager-gtx-256gb",
+    "name": "Corsair Flash Voyager GTX 256GB",
+    "brand": "Corsair",
+    "year": 2017,
+    "score": 72,
+    "blurb": "ה-Flash Voyager GTX מציע ביצועי SSD אמיתיים בגוף כונן Flash.",
+    "priceIls": 280,
+    "priceUsd": 70,
+    "specs": {
+      "capacity": 256,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A",
+      "seqRead": 440,
+      "seqWrite": 440,
+      "driveType": "Flash drive",
+      "encryption": "—",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "kingston-datatraveler-vault-privacy-3-0-64gb",
+    "name": "Kingston DataTraveler Vault Privacy 3.0 64GB",
+    "brand": "Kingston",
+    "year": 2016,
+    "score": 40,
+    "blurb": "ה-DataTraveler Vault Privacy מצפין חומרה ב-AES-256 לאבטחת נתונים.",
+    "priceIls": 280,
+    "priceUsd": 70,
+    "specs": {
+      "capacity": 64,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A",
+      "seqRead": 250,
+      "seqWrite": 85,
+      "driveType": "Flash drive",
+      "encryption": "Hardware AES-256",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "kingston-ironkey-vault-privacy-50-128gb",
+    "name": "Kingston IronKey Vault Privacy 50 128GB",
+    "brand": "Kingston",
+    "year": 2022,
+    "score": 50,
+    "blurb": "ה-IronKey Vault Privacy 50 מציע הצפנת חומרה ברמה צבאית למידע רגיש.",
+    "priceIls": 420,
+    "priceUsd": 105,
+    "specs": {
+      "capacity": 128,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A",
+      "seqRead": 250,
+      "seqWrite": 250,
+      "driveType": "Flash drive",
+      "encryption": "Hardware AES-256",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "samsung-t5-evo-4tb",
+    "name": "Samsung T5 EVO 4TB",
+    "brand": "Samsung",
+    "year": 2023,
+    "score": 71,
+    "blurb": "ה-T5 EVO בנפח ענק של 4TB אידיאלי לגיבוי ספריות מדיה גדולות.",
+    "priceIls": 950,
+    "priceUsd": 240,
+    "specs": {
+      "capacity": 4000,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-C",
+      "seqRead": 460,
+      "seqWrite": 460,
+      "driveType": "External SSD",
+      "encryption": "Hardware AES-256",
+      "warranty": 3
+    }
+  },
+  {
+    "id": "wd-my-passport-2tb",
+    "name": "WD My Passport 2TB",
+    "brand": "Western Digital",
+    "year": 2022,
+    "score": 28,
+    "blurb": "ה-My Passport הוא דיסק קשיח נייד אמין לגיבוי בנפח גדול ובמחיר נוח.",
+    "priceIls": 280,
+    "priceUsd": 75,
+    "specs": {
+      "capacity": 2000,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A",
+      "seqRead": 130,
+      "seqWrite": 120,
+      "driveType": "External HDD",
+      "encryption": "Hardware AES-256",
+      "warranty": 3
+    }
+  },
+  {
+    "id": "wd-my-passport-5tb",
+    "name": "WD My Passport 5TB",
+    "brand": "Western Digital",
+    "year": 2022,
+    "score": 29,
+    "blurb": "כונן ה-My Passport בנפח 5TB מציע אחסון גיבוי עצום בכיס אחד.",
+    "priceIls": 520,
+    "priceUsd": 130,
+    "specs": {
+      "capacity": 5000,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A",
+      "seqRead": 130,
+      "seqWrite": 120,
+      "driveType": "External HDD",
+      "encryption": "Hardware AES-256",
+      "warranty": 3
+    }
+  },
+  {
+    "id": "wd-elements-portable-2tb",
+    "name": "WD Elements Portable 2TB",
+    "brand": "Western Digital",
+    "year": 2021,
+    "score": 27,
+    "blurb": "ה-WD Elements הוא כונן גיבוי נייד פשוט ואמין במחיר תחרותי.",
+    "priceIls": 250,
+    "priceUsd": 65,
+    "specs": {
+      "capacity": 2000,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A",
+      "seqRead": 130,
+      "seqWrite": 120,
+      "driveType": "External HDD",
+      "encryption": "—",
+      "warranty": 2
+    }
+  },
+  {
+    "id": "seagate-expansion-portable-2tb",
+    "name": "Seagate Expansion Portable 2TB",
+    "brand": "Seagate",
+    "year": 2021,
+    "score": 27,
+    "blurb": "ה-Seagate Expansion הוא כונן גיבוי נייד חסכוני בנפח גדול.",
+    "priceIls": 260,
+    "priceUsd": 70,
+    "specs": {
+      "capacity": 2000,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A",
+      "seqRead": 130,
+      "seqWrite": 120,
+      "driveType": "External HDD",
+      "encryption": "—",
+      "warranty": 1
+    }
+  },
+  {
+    "id": "seagate-expansion-desktop-8tb",
+    "name": "Seagate Expansion Desktop 8TB",
+    "brand": "Seagate",
+    "year": 2021,
+    "score": 32,
+    "blurb": "ה-Expansion Desktop בנפח 8TB מספק אחסון נייח עצום לגיבוי הבית.",
+    "priceIls": 650,
+    "priceUsd": 160,
+    "specs": {
+      "capacity": 8000,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A",
+      "seqRead": 190,
+      "seqWrite": 180,
+      "driveType": "External HDD",
+      "encryption": "—",
+      "warranty": 1
+    }
+  },
+  {
+    "id": "wd-elements-desktop-8tb",
+    "name": "WD Elements Desktop 8TB",
+    "brand": "Western Digital",
+    "year": 2021,
+    "score": 32,
+    "blurb": "ה-WD Elements Desktop בנפח 8TB הוא פתרון גיבוי שולחני משתלם.",
+    "priceIls": 640,
+    "priceUsd": 160,
+    "specs": {
+      "capacity": 8000,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A",
+      "seqRead": 190,
+      "seqWrite": 180,
+      "driveType": "External HDD",
+      "encryption": "—",
+      "warranty": 2
+    }
+  },
+  {
+    "id": "seagate-backup-plus-slim-2tb",
+    "name": "Seagate Backup Plus Slim 2TB",
+    "brand": "Seagate",
+    "year": 2019,
+    "score": 27,
+    "blurb": "ה-Backup Plus Slim הוא כונן גיבוי נייד דק ואמין לעבודה יומיומית.",
+    "priceIls": 270,
+    "priceUsd": 70,
+    "specs": {
+      "capacity": 2000,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A",
+      "seqRead": 130,
+      "seqWrite": 120,
+      "driveType": "External HDD",
+      "encryption": "—",
+      "warranty": 2
+    }
+  },
+  {
+    "id": "seagate-one-touch-hdd-2tb",
+    "name": "Seagate One Touch HDD 2TB",
+    "brand": "Seagate",
+    "year": 2022,
+    "score": 28,
+    "blurb": "ה-Seagate One Touch הוא כונן גיבוי נייד אלגנטי עם תוכנת גיבוי מובנית.",
+    "priceIls": 300,
+    "priceUsd": 75,
+    "specs": {
+      "capacity": 2000,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A",
+      "seqRead": 130,
+      "seqWrite": 120,
+      "driveType": "External HDD",
+      "encryption": "Hardware AES-256",
+      "warranty": 3
+    }
+  },
+  {
+    "id": "lacie-rugged-mini-2tb",
+    "name": "LaCie Rugged Mini 2TB",
+    "brand": "Seagate",
+    "year": 2020,
+    "score": 28,
+    "blurb": "ה-LaCie Rugged Mini עמיד לנפילות ולגשם, אידיאלי לעבודה בשטח.",
+    "priceIls": 480,
+    "priceUsd": 120,
+    "specs": {
+      "capacity": 2000,
+      "interface": "USB 3.2 Gen 1",
+      "connector": "USB-A",
+      "seqRead": 130,
+      "seqWrite": 120,
+      "driveType": "External HDD",
+      "encryption": "—",
+      "warranty": 2
+    }
+  },
+  {
+    "id": "lacie-rugged-ssd-1tb",
+    "name": "LaCie Rugged SSD 1TB",
+    "brand": "Seagate",
+    "year": 2020,
+    "score": 84,
+    "blurb": "ה-LaCie Rugged SSD עמיד מאוד עם מהירות USB 3.2 Gen 2 לעורכים מקצועיים.",
+    "priceIls": 620,
+    "priceUsd": 160,
+    "specs": {
+      "capacity": 1000,
+      "interface": "USB 3.2 Gen 2",
+      "connector": "USB-C",
+      "seqRead": 1050,
+      "seqWrite": 1000,
+      "driveType": "External SSD",
+      "encryption": "Hardware AES-256",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "adata-se880-1tb",
+    "name": "ADATA SE880 1TB",
+    "brand": "ADATA",
+    "year": 2022,
+    "score": 91,
+    "blurb": "ה-ADATA SE880 זעיר במיוחד עם מהירות USB 3.2 Gen 2x2 מרשימה.",
+    "priceIls": 400,
+    "priceUsd": 100,
+    "specs": {
+      "capacity": 1000,
+      "interface": "USB 3.2 Gen 2x2",
+      "connector": "USB-C",
+      "seqRead": 2000,
+      "seqWrite": 2000,
+      "driveType": "External SSD",
+      "encryption": "—",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "kingston-xs2000-2tb",
+    "name": "Kingston XS2000 2TB",
+    "brand": "Kingston",
+    "year": 2021,
+    "score": 92,
+    "blurb": "ה-Kingston XS2000 כיסי ועמיד עם מהירות USB 3.2 Gen 2x2 אדירה.",
+    "priceIls": 700,
+    "priceUsd": 180,
+    "specs": {
+      "capacity": 2000,
+      "interface": "USB 3.2 Gen 2x2",
+      "connector": "USB-C",
+      "seqRead": 2000,
+      "seqWrite": 2000,
+      "driveType": "External SSD",
+      "encryption": "—",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "kingston-xs1000-1tb",
+    "name": "Kingston XS1000 1TB",
+    "brand": "Kingston",
+    "year": 2023,
+    "score": 84,
+    "blurb": "ה-Kingston XS1000 קטן וקל עם מהירות USB 3.2 Gen 2 במחיר משתלם.",
+    "priceIls": 300,
+    "priceUsd": 75,
+    "specs": {
+      "capacity": 1000,
+      "interface": "USB 3.2 Gen 2",
+      "connector": "USB-C",
+      "seqRead": 1050,
+      "seqWrite": 1000,
+      "driveType": "External SSD",
+      "encryption": "—",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "samsung-t9-4tb",
+    "name": "Samsung T9 Portable SSD 4TB",
+    "brand": "Samsung",
+    "year": 2023,
+    "score": 97,
+    "blurb": "ה-T9 בנפח 4TB הוא הכונן הנייד המהיר ביותר לעורכי וידאו מקצועיים.",
+    "priceIls": 1400,
+    "priceUsd": 360,
+    "specs": {
+      "capacity": 4000,
+      "interface": "USB 3.2 Gen 2x2",
+      "connector": "USB-C",
+      "seqRead": 2000,
+      "seqWrite": 1950,
+      "driveType": "External SSD",
+      "encryption": "Hardware AES-256",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "crucial-x9-pro-1tb",
+    "name": "Crucial X9 Pro 1TB",
+    "brand": "Crucial",
+    "year": 2023,
+    "score": 83,
+    "blurb": "ה-Crucial X9 Pro בנפח 1TB עמיד למים עם מהירות USB 3.2 Gen 2.",
+    "priceIls": 320,
+    "priceUsd": 85,
+    "specs": {
+      "capacity": 1000,
+      "interface": "USB 3.2 Gen 2",
+      "connector": "USB-C",
+      "seqRead": 1050,
+      "seqWrite": 1050,
+      "driveType": "External SSD",
+      "encryption": "—",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "sandisk-extreme-portable-ssd-v2-4tb",
+    "name": "SanDisk Extreme Portable SSD V2 4TB",
+    "brand": "SanDisk",
+    "year": 2022,
+    "score": 86,
+    "blurb": "ה-Extreme V2 בנפח 4TB עמיד למים עם מהירות USB 3.2 Gen 2 גבוהה.",
+    "priceIls": 1100,
+    "priceUsd": 280,
+    "specs": {
+      "capacity": 4000,
+      "interface": "USB 3.2 Gen 2",
+      "connector": "USB-A + USB-C",
+      "seqRead": 1050,
+      "seqWrite": 1000,
+      "driveType": "External SSD",
+      "encryption": "Hardware AES-256",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "wd-black-p50-game-drive-ssd-1tb",
+    "name": "WD Black P50 Game Drive SSD 1TB",
+    "brand": "Western Digital",
+    "year": 2020,
+    "score": 92,
+    "blurb": "ה-WD Black P50 לגיימינג עם מהירות USB 3.2 Gen 2x2 בגוף עמיד.",
+    "priceIls": 560,
+    "priceUsd": 145,
+    "specs": {
+      "capacity": 1000,
+      "interface": "USB 3.2 Gen 2x2",
+      "connector": "USB-C",
+      "seqRead": 2000,
+      "seqWrite": 2000,
+      "driveType": "External SSD",
+      "encryption": "—",
+      "warranty": 5
+    }
+  },
+  {
+    "id": "adata-se920-2tb",
+    "name": "ADATA SE920 2TB",
+    "brand": "ADATA",
+    "year": 2023,
+    "score": 99,
+    "blurb": "ה-ADATA SE920 עם USB4 שובר שיאים במהירות לכונן נייד חיצוני.",
+    "priceIls": 900,
+    "priceUsd": 230,
+    "specs": {
+      "capacity": 2000,
+      "interface": "USB4",
+      "connector": "USB-C",
+      "seqRead": 3800,
+      "seqWrite": 3700,
+      "driveType": "External SSD",
+      "encryption": "—",
+      "warranty": 5
+    }
+  }
+]

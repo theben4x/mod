@@ -1,0 +1,842 @@
+[
+  {
+    "id": "gskill-trident-z5-rgb-ddr5-6000-cl30-2x16gb",
+    "name": "G.SKILL Trident Z5 RGB DDR5-6000 CL30 2x16GB",
+    "brand": "G.SKILL",
+    "year": 2023,
+    "score": 96,
+    "blurb": "ערכת Trident Z5 RGB מהירה במיוחד עם תזמון CL30 ל-AM5 ול-Intel.",
+    "priceIls": 460,
+    "priceUsd": 110,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 6000,
+      "casLatency": 30,
+      "kit": "2x16GB",
+      "voltage": 1.35,
+      "profile": "XMP 3.0",
+      "rgb": true
+    }
+  },
+  {
+    "id": "gskill-trident-z5-rgb-ddr5-6400-cl32-2x16gb",
+    "name": "G.SKILL Trident Z5 RGB DDR5-6400 CL32 2x16GB",
+    "brand": "G.SKILL",
+    "year": 2023,
+    "score": 97,
+    "blurb": "Trident Z5 RGB ב-6400 MT/s עם CL32 לביצועי שיא בגיימינג.",
+    "priceIls": 520,
+    "priceUsd": 125,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 6400,
+      "casLatency": 32,
+      "kit": "2x16GB",
+      "voltage": 1.40,
+      "profile": "XMP 3.0",
+      "rgb": true
+    }
+  },
+  {
+    "id": "gskill-trident-z5-rgb-ddr5-6400-cl32-2x32gb",
+    "name": "G.SKILL Trident Z5 RGB DDR5-6400 CL32 2x32GB",
+    "brand": "G.SKILL",
+    "year": 2023,
+    "score": 98,
+    "blurb": "ערכת 64GB מהירה של Trident Z5 RGB ליצירה ולמשחקים כבדים.",
+    "priceIls": 850,
+    "priceUsd": 210,
+    "specs": {
+      "capacity": 64,
+      "type": "DDR5",
+      "speed": 6400,
+      "casLatency": 32,
+      "kit": "2x32GB",
+      "voltage": 1.40,
+      "profile": "XMP 3.0",
+      "rgb": true
+    }
+  },
+  {
+    "id": "gskill-trident-z5-rgb-ddr5-7200-cl34-2x16gb",
+    "name": "G.SKILL Trident Z5 RGB DDR5-7200 CL34 2x16GB",
+    "brand": "G.SKILL",
+    "year": 2023,
+    "score": 99,
+    "blurb": "Trident Z5 RGB ב-7200 MT/s לפלטפורמות Intel תובעניות במיוחד.",
+    "priceIls": 720,
+    "priceUsd": 175,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 7200,
+      "casLatency": 34,
+      "kit": "2x16GB",
+      "voltage": 1.40,
+      "profile": "XMP 3.0",
+      "rgb": true
+    }
+  },
+  {
+    "id": "gskill-trident-z5-neo-rgb-ddr5-6000-cl28-2x16gb",
+    "name": "G.SKILL Trident Z5 Neo RGB DDR5-6000 CL28 2x16GB",
+    "brand": "G.SKILL",
+    "year": 2024,
+    "score": 98,
+    "blurb": "Trident Z5 Neo עם CL28 ותעודת EXPO לביצועי AMD Ryzen מיטביים.",
+    "priceIls": 560,
+    "priceUsd": 135,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 6000,
+      "casLatency": 28,
+      "kit": "2x16GB",
+      "voltage": 1.40,
+      "profile": "EXPO",
+      "rgb": true
+    }
+  },
+  {
+    "id": "gskill-trident-z5-neo-rgb-ddr5-6000-cl30-2x32gb",
+    "name": "G.SKILL Trident Z5 Neo RGB DDR5-6000 CL30 2x32GB",
+    "brand": "G.SKILL",
+    "year": 2023,
+    "score": 97,
+    "blurb": "ערכת Neo 64GB עם CL30 ו-EXPO לתחנות עבודה על AMD AM5.",
+    "priceIls": 880,
+    "priceUsd": 215,
+    "specs": {
+      "capacity": 64,
+      "type": "DDR5",
+      "speed": 6000,
+      "casLatency": 30,
+      "kit": "2x32GB",
+      "voltage": 1.35,
+      "profile": "EXPO",
+      "rgb": true
+    }
+  },
+  {
+    "id": "gskill-ripjaws-s5-ddr5-6000-cl30-2x16gb",
+    "name": "G.SKILL Ripjaws S5 DDR5-6000 CL30 2x16GB",
+    "brand": "G.SKILL",
+    "year": 2023,
+    "score": 95,
+    "blurb": "Ripjaws S5 בפרופיל נמוך וללא RGB עם CL30 לבנייה נקייה.",
+    "priceIls": 430,
+    "priceUsd": 100,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 6000,
+      "casLatency": 30,
+      "kit": "2x16GB",
+      "voltage": 1.35,
+      "profile": "XMP 3.0",
+      "rgb": false
+    }
+  },
+  {
+    "id": "gskill-flare-x5-ddr5-6000-cl30-2x16gb",
+    "name": "G.SKILL Flare X5 DDR5-6000 CL30 2x16GB",
+    "brand": "G.SKILL",
+    "year": 2023,
+    "score": 96,
+    "blurb": "Flare X5 עם EXPO מותאם ל-AMD ל-32GB בתזמון CL30 חד.",
+    "priceIls": 450,
+    "priceUsd": 105,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 6000,
+      "casLatency": 30,
+      "kit": "2x16GB",
+      "voltage": 1.35,
+      "profile": "EXPO",
+      "rgb": false
+    }
+  },
+  {
+    "id": "gskill-trident-z5-rgb-ddr5-8000-cl38-2x16gb",
+    "name": "G.SKILL Trident Z5 RGB DDR5-8000 CL38 2x16GB",
+    "brand": "G.SKILL",
+    "year": 2024,
+    "score": 100,
+    "blurb": "ערכת Trident Z5 RGB ב-8000 MT/s למיצוי מבוקרי הזיכרון החדשים.",
+    "priceIls": 980,
+    "priceUsd": 240,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 8000,
+      "casLatency": 38,
+      "kit": "2x16GB",
+      "voltage": 1.45,
+      "profile": "XMP 3.0",
+      "rgb": true
+    }
+  },
+  {
+    "id": "gskill-ripjaws-v-ddr4-3200-cl16-2x8gb",
+    "name": "G.SKILL Ripjaws V DDR4-3200 CL16 2x8GB",
+    "brand": "G.SKILL",
+    "year": 2018,
+    "score": 70,
+    "blurb": "Ripjaws V קלאסי ב-3200 ו-CL16 לבניות DDR4 חסכוניות.",
+    "priceIls": 180,
+    "priceUsd": 45,
+    "specs": {
+      "capacity": 16,
+      "type": "DDR4",
+      "speed": 3200,
+      "casLatency": 16,
+      "kit": "2x8GB",
+      "voltage": 1.35,
+      "profile": "XMP 2.0",
+      "rgb": false
+    }
+  },
+  {
+    "id": "gskill-trident-z-rgb-ddr4-3200-cl16-2x8gb",
+    "name": "G.SKILL Trident Z RGB DDR4-3200 CL16 2x8GB",
+    "brand": "G.SKILL",
+    "year": 2017,
+    "score": 72,
+    "blurb": "Trident Z RGB אהוב עם תאורה ותזמון CL16 לפלטפורמות DDR4.",
+    "priceIls": 230,
+    "priceUsd": 60,
+    "specs": {
+      "capacity": 16,
+      "type": "DDR4",
+      "speed": 3200,
+      "casLatency": 16,
+      "kit": "2x8GB",
+      "voltage": 1.35,
+      "profile": "XMP 2.0",
+      "rgb": true
+    }
+  },
+  {
+    "id": "gskill-flare-x-ddr4-3200-cl14-2x8gb",
+    "name": "G.SKILL Flare X DDR4-3200 CL14 2x8GB",
+    "brand": "G.SKILL",
+    "year": 2017,
+    "score": 78,
+    "blurb": "Flare X עם CL14 צמוד שתוכנן במיוחד עבור מעבדי AMD Ryzen.",
+    "priceIls": 260,
+    "priceUsd": 68,
+    "specs": {
+      "capacity": 16,
+      "type": "DDR4",
+      "speed": 3200,
+      "casLatency": 14,
+      "kit": "2x8GB",
+      "voltage": 1.35,
+      "profile": "XMP 2.0",
+      "rgb": false
+    }
+  },
+  {
+    "id": "gskill-trident-z-ddr4-3600-cl16-2x8gb",
+    "name": "G.SKILL Trident Z DDR4-3600 CL16 2x8GB",
+    "brand": "G.SKILL",
+    "year": 2018,
+    "score": 76,
+    "blurb": "Trident Z ב-3600 ו-CL16 לנקודה מתוקה של DDR4 בגיימינג.",
+    "priceIls": 240,
+    "priceUsd": 62,
+    "specs": {
+      "capacity": 16,
+      "type": "DDR4",
+      "speed": 3600,
+      "casLatency": 16,
+      "kit": "2x8GB",
+      "voltage": 1.35,
+      "profile": "XMP 2.0",
+      "rgb": false
+    }
+  },
+  {
+    "id": "corsair-vengeance-rgb-ddr5-6000-cl36-2x16gb",
+    "name": "Corsair Vengeance RGB DDR5-6000 CL36 2x16GB",
+    "brand": "Corsair",
+    "year": 2022,
+    "score": 94,
+    "blurb": "Vengeance RGB ב-6000 MT/s עם תאורה דינמית לבניות מודרניות.",
+    "priceIls": 440,
+    "priceUsd": 105,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 6000,
+      "casLatency": 36,
+      "kit": "2x16GB",
+      "voltage": 1.35,
+      "profile": "XMP 3.0",
+      "rgb": true
+    }
+  },
+  {
+    "id": "corsair-vengeance-rgb-ddr5-6400-cl36-2x16gb",
+    "name": "Corsair Vengeance RGB DDR5-6400 CL36 2x16GB",
+    "brand": "Corsair",
+    "year": 2023,
+    "score": 96,
+    "blurb": "Vengeance RGB ב-6400 MT/s לדחיפת ביצועים נוספת ב-Intel.",
+    "priceIls": 500,
+    "priceUsd": 120,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 6400,
+      "casLatency": 36,
+      "kit": "2x16GB",
+      "voltage": 1.40,
+      "profile": "XMP 3.0",
+      "rgb": true
+    }
+  },
+  {
+    "id": "corsair-vengeance-rgb-ddr5-6400-cl32-2x32gb",
+    "name": "Corsair Vengeance RGB DDR5-6400 CL32 2x32GB",
+    "brand": "Corsair",
+    "year": 2023,
+    "score": 97,
+    "blurb": "ערכת 64GB של Vengeance RGB ב-CL32 ליוצרים וגיימרים כאחד.",
+    "priceIls": 880,
+    "priceUsd": 215,
+    "specs": {
+      "capacity": 64,
+      "type": "DDR5",
+      "speed": 6400,
+      "casLatency": 32,
+      "kit": "2x32GB",
+      "voltage": 1.40,
+      "profile": "XMP 3.0",
+      "rgb": true
+    }
+  },
+  {
+    "id": "corsair-vengeance-ddr5-6000-cl36-2x16gb",
+    "name": "Corsair Vengeance DDR5-6000 CL36 2x16GB",
+    "brand": "Corsair",
+    "year": 2022,
+    "score": 93,
+    "blurb": "Vengeance ללא תאורה ב-6000 MT/s לבנייה שקטה ויעילה.",
+    "priceIls": 390,
+    "priceUsd": 92,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 6000,
+      "casLatency": 36,
+      "kit": "2x16GB",
+      "voltage": 1.35,
+      "profile": "XMP 3.0",
+      "rgb": false
+    }
+  },
+  {
+    "id": "corsair-dominator-platinum-rgb-ddr5-6600-cl32-2x16gb",
+    "name": "Corsair Dominator Platinum RGB DDR5-6600 CL32 2x16GB",
+    "brand": "Corsair",
+    "year": 2023,
+    "score": 98,
+    "blurb": "Dominator Platinum RGB יוקרתי עם תאורת Capellix ל-6600 MT/s.",
+    "priceIls": 720,
+    "priceUsd": 175,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 6600,
+      "casLatency": 32,
+      "kit": "2x16GB",
+      "voltage": 1.40,
+      "profile": "XMP 3.0",
+      "rgb": true
+    }
+  },
+  {
+    "id": "corsair-vengeance-lpx-ddr4-3200-cl16-2x8gb",
+    "name": "Corsair Vengeance LPX DDR4-3200 CL16 2x8GB",
+    "brand": "Corsair",
+    "year": 2017,
+    "score": 70,
+    "blurb": "Vengeance LPX הנמכר ביותר ב-3200 ו-CL16 לבניות DDR4.",
+    "priceIls": 175,
+    "priceUsd": 44,
+    "specs": {
+      "capacity": 16,
+      "type": "DDR4",
+      "speed": 3200,
+      "casLatency": 16,
+      "kit": "2x8GB",
+      "voltage": 1.35,
+      "profile": "XMP 2.0",
+      "rgb": false
+    }
+  },
+  {
+    "id": "corsair-vengeance-lpx-ddr4-3200-cl16-2x16gb",
+    "name": "Corsair Vengeance LPX DDR4-3200 CL16 2x16GB",
+    "brand": "Corsair",
+    "year": 2018,
+    "score": 73,
+    "blurb": "Vengeance LPX 32GB ב-3200 ל-CL16 לריבוי משימות במחיר נוח.",
+    "priceIls": 280,
+    "priceUsd": 72,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR4",
+      "speed": 3200,
+      "casLatency": 16,
+      "kit": "2x16GB",
+      "voltage": 1.35,
+      "profile": "XMP 2.0",
+      "rgb": false
+    }
+  },
+  {
+    "id": "corsair-vengeance-rgb-pro-ddr4-3200-cl16-2x16gb",
+    "name": "Corsair Vengeance RGB Pro DDR4-3200 CL16 2x16GB",
+    "brand": "Corsair",
+    "year": 2019,
+    "score": 74,
+    "blurb": "Vengeance RGB Pro עם תאורה רכה וערכת 32GB ב-3200 MT/s.",
+    "priceIls": 330,
+    "priceUsd": 85,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR4",
+      "speed": 3200,
+      "casLatency": 16,
+      "kit": "2x16GB",
+      "voltage": 1.35,
+      "profile": "XMP 2.0",
+      "rgb": true
+    }
+  },
+  {
+    "id": "corsair-vengeance-lpx-ddr4-3600-cl18-2x8gb",
+    "name": "Corsair Vengeance LPX DDR4-3600 CL18 2x8GB",
+    "brand": "Corsair",
+    "year": 2019,
+    "score": 75,
+    "blurb": "Vengeance LPX ב-3600 MT/s לדחיפת תדר נוספת בפלטפורמות DDR4.",
+    "priceIls": 210,
+    "priceUsd": 54,
+    "specs": {
+      "capacity": 16,
+      "type": "DDR4",
+      "speed": 3600,
+      "casLatency": 18,
+      "kit": "2x8GB",
+      "voltage": 1.35,
+      "profile": "XMP 2.0",
+      "rgb": false
+    }
+  },
+  {
+    "id": "corsair-vengeance-lpx-ddr4-3000-cl15-2x8gb",
+    "name": "Corsair Vengeance LPX DDR4-3000 CL15 2x8GB",
+    "brand": "Corsair",
+    "year": 2016,
+    "score": 68,
+    "blurb": "Vengeance LPX ב-3000 ו-CL15 לבניות DDR4 ותיקות ואמינות.",
+    "priceIls": 160,
+    "priceUsd": 40,
+    "specs": {
+      "capacity": 16,
+      "type": "DDR4",
+      "speed": 3000,
+      "casLatency": 15,
+      "kit": "2x8GB",
+      "voltage": 1.35,
+      "profile": "XMP 2.0",
+      "rgb": false
+    }
+  },
+  {
+    "id": "corsair-vengeance-lpx-ddr4-2666-cl16-2x8gb",
+    "name": "Corsair Vengeance LPX DDR4-2666 CL16 2x8GB",
+    "brand": "Corsair",
+    "year": 2016,
+    "score": 64,
+    "blurb": "Vengeance LPX ב-2666 לערכות בסיסיות וזולות במיוחד.",
+    "priceIls": 145,
+    "priceUsd": 36,
+    "specs": {
+      "capacity": 16,
+      "type": "DDR4",
+      "speed": 2666,
+      "casLatency": 16,
+      "kit": "2x8GB",
+      "voltage": 1.20,
+      "profile": "XMP 2.0",
+      "rgb": false
+    }
+  },
+  {
+    "id": "kingston-fury-beast-ddr5-6000-cl36-2x16gb",
+    "name": "Kingston Fury Beast DDR5-6000 CL36 2x16GB",
+    "brand": "Kingston",
+    "year": 2022,
+    "score": 93,
+    "blurb": "Fury Beast DDR5 ב-6000 MT/s לבנייה אמינה במחיר נגיש.",
+    "priceIls": 400,
+    "priceUsd": 95,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 6000,
+      "casLatency": 36,
+      "kit": "2x16GB",
+      "voltage": 1.35,
+      "profile": "XMP 3.0",
+      "rgb": false
+    }
+  },
+  {
+    "id": "kingston-fury-beast-rgb-ddr5-6000-cl36-2x16gb",
+    "name": "Kingston Fury Beast RGB DDR5-6000 CL36 2x16GB",
+    "brand": "Kingston",
+    "year": 2022,
+    "score": 93,
+    "blurb": "Fury Beast RGB עם תאורה אינפרא-אדומה לסנכרון ב-6000 MT/s.",
+    "priceIls": 450,
+    "priceUsd": 108,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 6000,
+      "casLatency": 36,
+      "kit": "2x16GB",
+      "voltage": 1.35,
+      "profile": "XMP 3.0",
+      "rgb": true
+    }
+  },
+  {
+    "id": "kingston-fury-beast-ddr5-5600-cl40-2x16gb",
+    "name": "Kingston Fury Beast DDR5-5600 CL40 2x16GB",
+    "brand": "Kingston",
+    "year": 2022,
+    "score": 90,
+    "blurb": "Fury Beast ב-5600 MT/s לכניסה משתלמת אל עולם ה-DDR5.",
+    "priceIls": 360,
+    "priceUsd": 85,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 5600,
+      "casLatency": 40,
+      "kit": "2x16GB",
+      "voltage": 1.25,
+      "profile": "XMP 3.0",
+      "rgb": false
+    }
+  },
+  {
+    "id": "kingston-fury-renegade-ddr5-6400-cl32-2x16gb",
+    "name": "Kingston Fury Renegade DDR5-6400 CL32 2x16GB",
+    "brand": "Kingston",
+    "year": 2022,
+    "score": 96,
+    "blurb": "Fury Renegade בעיצוב אגרסיבי ו-6400 MT/s לביצועים גבוהים.",
+    "priceIls": 540,
+    "priceUsd": 130,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 6400,
+      "casLatency": 32,
+      "kit": "2x16GB",
+      "voltage": 1.40,
+      "profile": "XMP 3.0",
+      "rgb": false
+    }
+  },
+  {
+    "id": "kingston-fury-renegade-rgb-ddr5-7200-cl38-2x16gb",
+    "name": "Kingston Fury Renegade RGB DDR5-7200 CL38 2x16GB",
+    "brand": "Kingston",
+    "year": 2023,
+    "score": 99,
+    "blurb": "Fury Renegade RGB ב-7200 MT/s עם תאורה ל-Intel תובעני.",
+    "priceIls": 760,
+    "priceUsd": 185,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 7200,
+      "casLatency": 38,
+      "kit": "2x16GB",
+      "voltage": 1.45,
+      "profile": "XMP 3.0",
+      "rgb": true
+    }
+  },
+  {
+    "id": "kingston-fury-beast-ddr4-3200-cl16-2x8gb",
+    "name": "Kingston Fury Beast DDR4-3200 CL16 2x8GB",
+    "brand": "Kingston",
+    "year": 2021,
+    "score": 70,
+    "blurb": "Fury Beast DDR4 ב-3200 ו-CL16 לבניות חסכוניות ואמינות.",
+    "priceIls": 170,
+    "priceUsd": 43,
+    "specs": {
+      "capacity": 16,
+      "type": "DDR4",
+      "speed": 3200,
+      "casLatency": 16,
+      "kit": "2x8GB",
+      "voltage": 1.35,
+      "profile": "XMP 2.0",
+      "rgb": false
+    }
+  },
+  {
+    "id": "kingston-fury-beast-ddr4-3600-cl17-2x8gb",
+    "name": "Kingston Fury Beast DDR4-3600 CL17 2x8GB",
+    "brand": "Kingston",
+    "year": 2021,
+    "score": 75,
+    "blurb": "Fury Beast ב-3600 MT/s לנקודת המתיקות של DDR4 בגיימינג.",
+    "priceIls": 200,
+    "priceUsd": 50,
+    "specs": {
+      "capacity": 16,
+      "type": "DDR4",
+      "speed": 3600,
+      "casLatency": 17,
+      "kit": "2x8GB",
+      "voltage": 1.35,
+      "profile": "XMP 2.0",
+      "rgb": false
+    }
+  },
+  {
+    "id": "crucial-pro-ddr5-6000-cl36-2x16gb",
+    "name": "Crucial Pro DDR5-6000 CL36 2x16GB",
+    "brand": "Crucial",
+    "year": 2023,
+    "score": 92,
+    "blurb": "Crucial Pro ב-6000 MT/s לאמינות מיקרון בבנייה יומיומית.",
+    "priceIls": 380,
+    "priceUsd": 90,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 6000,
+      "casLatency": 36,
+      "kit": "2x16GB",
+      "voltage": 1.35,
+      "profile": "XMP 3.0",
+      "rgb": false
+    }
+  },
+  {
+    "id": "crucial-pro-overclocking-ddr5-6400-cl32-2x16gb",
+    "name": "Crucial Pro Overclocking DDR5-6400 CL32 2x16GB",
+    "brand": "Crucial",
+    "year": 2024,
+    "score": 96,
+    "blurb": "Crucial Pro Overclocking ב-6400 ו-CL32 עם שבבי מיקרון איכותיים.",
+    "priceIls": 520,
+    "priceUsd": 125,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 6400,
+      "casLatency": 32,
+      "kit": "2x16GB",
+      "voltage": 1.40,
+      "profile": "XMP 3.0",
+      "rgb": false
+    }
+  },
+  {
+    "id": "crucial-ddr5-5600-cl46-2x16gb",
+    "name": "Crucial DDR5-5600 CL46 2x16GB",
+    "brand": "Crucial",
+    "year": 2022,
+    "score": 88,
+    "blurb": "ערכת Crucial סטנדרטית ב-5600 MT/s לשדרוג DDR5 פשוט וזול.",
+    "priceIls": 320,
+    "priceUsd": 78,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 5600,
+      "casLatency": 46,
+      "kit": "2x16GB",
+      "voltage": 1.10,
+      "profile": "JEDEC",
+      "rgb": false
+    }
+  },
+  {
+    "id": "crucial-ballistix-ddr4-3200-cl16-2x8gb",
+    "name": "Crucial Ballistix DDR4-3200 CL16 2x8GB",
+    "brand": "Crucial",
+    "year": 2020,
+    "score": 73,
+    "blurb": "Ballistix עם שבבי מיקרון אהובים על אוברקלוקרים ב-3200 MT/s.",
+    "priceIls": 220,
+    "priceUsd": 58,
+    "specs": {
+      "capacity": 16,
+      "type": "DDR4",
+      "speed": 3200,
+      "casLatency": 16,
+      "kit": "2x8GB",
+      "voltage": 1.35,
+      "profile": "XMP 2.0",
+      "rgb": false
+    }
+  },
+  {
+    "id": "crucial-ballistix-elite-ddr4-3600-cl16-2x8gb",
+    "name": "Crucial Ballistix Elite DDR4-3600 CL16 2x8GB",
+    "brand": "Crucial",
+    "year": 2020,
+    "score": 78,
+    "blurb": "Ballistix Elite ב-3600 ו-CL16 לאוברקלוקינג רציני על DDR4.",
+    "priceIls": 280,
+    "priceUsd": 72,
+    "specs": {
+      "capacity": 16,
+      "type": "DDR4",
+      "speed": 3600,
+      "casLatency": 16,
+      "kit": "2x8GB",
+      "voltage": 1.35,
+      "profile": "XMP 2.0",
+      "rgb": false
+    }
+  },
+  {
+    "id": "corsair-vengeance-rgb-ddr4-3600-cl18-2x16gb",
+    "name": "Corsair Vengeance RGB DDR4-3600 CL18 2x16GB",
+    "brand": "Corsair",
+    "year": 2020,
+    "score": 76,
+    "blurb": "Vengeance RGB DDR4 32GB ב-3600 MT/s עם תאורה לבנייה צבעונית.",
+    "priceIls": 360,
+    "priceUsd": 92,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR4",
+      "speed": 3600,
+      "casLatency": 18,
+      "kit": "2x16GB",
+      "voltage": 1.35,
+      "profile": "XMP 2.0",
+      "rgb": true
+    }
+  },
+  {
+    "id": "gskill-trident-z-royal-ddr4-3600-cl16-2x8gb",
+    "name": "G.SKILL Trident Z Royal DDR4-3600 CL16 2x8GB",
+    "brand": "G.SKILL",
+    "year": 2019,
+    "score": 77,
+    "blurb": "Trident Z Royal יוקרתי עם קריסטל ותאורה ב-3600 MT/s.",
+    "priceIls": 360,
+    "priceUsd": 92,
+    "specs": {
+      "capacity": 16,
+      "type": "DDR4",
+      "speed": 3600,
+      "casLatency": 16,
+      "kit": "2x8GB",
+      "voltage": 1.35,
+      "profile": "XMP 2.0",
+      "rgb": true
+    }
+  },
+  {
+    "id": "gskill-trident-z5-rgb-ddr5-7600-cl36-2x16gb",
+    "name": "G.SKILL Trident Z5 RGB DDR5-7600 CL36 2x16GB",
+    "brand": "G.SKILL",
+    "year": 2023,
+    "score": 99,
+    "blurb": "Trident Z5 RGB ב-7600 MT/s למיצוי מרבי של מבוקרי Intel.",
+    "priceIls": 840,
+    "priceUsd": 205,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 7600,
+      "casLatency": 36,
+      "kit": "2x16GB",
+      "voltage": 1.40,
+      "profile": "XMP 3.0",
+      "rgb": true
+    }
+  },
+  {
+    "id": "kingston-fury-renegade-ddr5-6000-cl32-2x16gb",
+    "name": "Kingston Fury Renegade DDR5-6000 CL32 2x16GB",
+    "brand": "Kingston",
+    "year": 2022,
+    "score": 95,
+    "blurb": "Fury Renegade ב-6000 ו-CL32 לאיזון מצוין בין מהירות ותזמון.",
+    "priceIls": 480,
+    "priceUsd": 115,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 6000,
+      "casLatency": 32,
+      "kit": "2x16GB",
+      "voltage": 1.35,
+      "profile": "XMP 3.0",
+      "rgb": false
+    }
+  },
+  {
+    "id": "teamgroup-t-force-delta-rgb-ddr5-6000-cl30-2x16gb",
+    "name": "TEAMGROUP T-Force Delta RGB DDR5-6000 CL30 2x16GB",
+    "brand": "TEAMGROUP",
+    "year": 2023,
+    "score": 95,
+    "blurb": "T-Force Delta RGB ב-6000 ו-CL30 עם תאורת 120 מעלות בולטת.",
+    "priceIls": 440,
+    "priceUsd": 105,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 6000,
+      "casLatency": 30,
+      "kit": "2x16GB",
+      "voltage": 1.35,
+      "profile": "EXPO",
+      "rgb": true
+    }
+  },
+  {
+    "id": "adata-xpg-lancer-rgb-ddr5-6000-cl30-2x16gb",
+    "name": "ADATA XPG Lancer RGB DDR5-6000 CL30 2x16GB",
+    "brand": "ADATA",
+    "year": 2023,
+    "score": 94,
+    "blurb": "XPG Lancer RGB ב-6000 ו-CL30 לבנייה ראוותנית במחיר תחרותי.",
+    "priceIls": 430,
+    "priceUsd": 102,
+    "specs": {
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 6000,
+      "casLatency": 30,
+      "kit": "2x16GB",
+      "voltage": 1.35,
+      "profile": "XMP 3.0",
+      "rgb": true
+    }
+  }
+]
