@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
@@ -30,6 +31,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     type: "article",
     keywords: post.tags,
     publishedTime: post.date,
+    image: post.cover,
+    imageAlt: post.title,
   });
 }
 
@@ -56,12 +59,40 @@ export default async function BlogPostPage({ params }: Props) {
             path: `/blog/${post.slug}`,
             date: post.date,
             author: post.author,
+            image: post.cover,
           }),
         ]}
       />
 
       <article className="mx-auto max-w-2xl px-4 pt-8 sm:px-6">
         <Breadcrumbs items={[{ name: "בית", href: "/" }, { name: "בלוג", href: "/blog" }, { name: post.title }]} />
+
+        {post.cover && (
+          <figure className="mt-6">
+            <div className="relative aspect-[16/9] overflow-hidden rounded-2xl border border-border bg-surface">
+              <Image
+                src={post.cover}
+                alt={post.title}
+                fill
+                priority
+                sizes="(max-width: 672px) 100vw, 672px"
+                className="object-cover"
+              />
+            </div>
+            {post.coverCredit && (
+              <figcaption className="mono mt-2 px-1 text-[11px] text-muted">
+                תמונה:{" "}
+                {post.coverSource ? (
+                  <a href={post.coverSource} target="_blank" rel="noopener noreferrer nofollow" className="underline decoration-dotted underline-offset-2 hover:text-foreground">
+                    {post.coverCredit}
+                  </a>
+                ) : (
+                  post.coverCredit
+                )}
+              </figcaption>
+            )}
+          </figure>
+        )}
 
         <header className="mt-6">
           <div className="flex flex-wrap gap-1.5">

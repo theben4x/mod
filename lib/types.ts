@@ -115,6 +115,12 @@ export interface BlogPost {
   body: string;
   /** קטגוריה רלוונטית (אופציונלי) לקישור פנימי */
   category?: CategoryKey;
+  /** נתיב לתמונת נושא (hero) תחת public/, למשל "/blog/slug.jpg" */
+  cover?: string;
+  /** ייחוס התמונה (יוצר · רישיון) — חובה לתמונות CC */
+  coverCredit?: string;
+  /** קישור למקור התמונה (עמוד הקובץ ב-Wikimedia Commons) */
+  coverSource?: string;
 }
 
 export interface TickerItem {

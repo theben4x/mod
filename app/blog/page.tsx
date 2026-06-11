@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
@@ -30,6 +31,7 @@ export default function BlogIndexPage() {
       url: absoluteUrl(`/blog/${p.slug}`),
       datePublished: p.date,
       description: p.excerpt,
+      ...(p.cover ? { image: absoluteUrl(p.cover) } : {}),
     })),
   };
 
@@ -49,8 +51,21 @@ export default function BlogIndexPage() {
         {featured && (
           <Link
             href={`/blog/${featured.slug}`}
-            className="card group mt-8 flex flex-col gap-4 p-6 transition-all duration-300 hover:border-accent/60 hover:shadow-card sm:p-8"
+            className="card group mt-8 flex flex-col gap-4 overflow-hidden p-0 transition-all duration-300 hover:border-accent/60 hover:shadow-card"
           >
+            {featured.cover && (
+              <div className="relative aspect-[21/9] w-full overflow-hidden border-b border-border bg-surface">
+                <Image
+                  src={featured.cover}
+                  alt={featured.title}
+                  fill
+                  priority
+                  sizes="(max-width: 1024px) 100vw, 1024px"
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+              </div>
+            )}
+            <div className="flex flex-col gap-4 p-6 pt-2 sm:p-8 sm:pt-2">
             <div className="flex flex-wrap items-center gap-2">
               <span className="rounded-full bg-accent-soft px-2.5 py-0.5 text-[11px] text-accent">מומלץ</span>
               {featured.tags.slice(0, 2).map((t) => (
@@ -64,6 +79,7 @@ export default function BlogIndexPage() {
               <span className="text-border">/</span>
               <span>{featured.readingMinutes} דק׳ קריאה</span>
             </div>
+            </div>
           </Link>
         )}
 
@@ -73,8 +89,20 @@ export default function BlogIndexPage() {
             <Link
               key={post.slug}
               href={`/blog/${post.slug}`}
-              className="card group flex flex-col gap-3 p-5 transition-all duration-300 hover:-translate-y-0.5 hover:border-accent/60 hover:shadow-card"
+              className="card group flex flex-col overflow-hidden p-0 transition-all duration-300 hover:-translate-y-0.5 hover:border-accent/60 hover:shadow-card"
             >
+              {post.cover && (
+                <div className="relative aspect-[16/9] w-full overflow-hidden border-b border-border bg-surface">
+                  <Image
+                    src={post.cover}
+                    alt={post.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 360px"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+              )}
+              <div className="flex flex-1 flex-col gap-3 p-5">
               <div className="flex flex-wrap gap-1.5">
                 {post.tags.slice(0, 2).map((t) => (
                   <span key={t} className="mono rounded-md bg-surface px-2 py-0.5 text-[10px] text-muted">{t}</span>
@@ -86,6 +114,7 @@ export default function BlogIndexPage() {
                 <span>{dateFmt.format(new Date(post.date))}</span>
                 <span className="text-border">/</span>
                 <span>{post.readingMinutes} דק׳</span>
+              </div>
               </div>
             </Link>
           ))}

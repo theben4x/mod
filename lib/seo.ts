@@ -9,24 +9,33 @@ interface MetaInput {
   keywords?: string[];
   noindex?: boolean;
   publishedTime?: string;
+  /** תמונת OG/Twitter ייעודית לעמוד (נתיב יחסי או מוחלט). מחליפה את ברירת המחדל. */
+  image?: string;
+  imageAlt?: string;
 }
 
 /**
  * בונה אובייקט Metadata עקבי לכל עמוד.
- * תמונות OG/Twitter מסופקות אוטומטית ע"י קונבנציית הקבצים opengraph-image.tsx,
- * ולכן אינן מוגדרות כאן ידנית (נמנעת כפילות).
+ * אם לא הועברה תמונה — נופלים לקונבנציית הקבצים opengraph-image.tsx (ברירת מחדל לאתר).
+ * עמודים עם תמונה ייעודית (פוסט בלוג, מוצר) מעבירים image כדי לקבל כרטיס שיתוף ממוקד.
  */
 export function buildMetadata(input: MetaInput = {}): Metadata {
   const title = input.title ? `${input.title} · ${SITE.name}` : SITE.longName;
   const description = input.description ?? SITE.description;
   const path = input.path ?? "/";
   const url = absoluteUrl(path);
+  const images = input.image
+    ? [{ url: input.image, alt: input.imageAlt ?? input.title ?? SITE.name }]
+    : undefined;
 
   return {
     title,
     description,
     keywords: input.keywords ?? [...SITE.keywords],
-    alternates: { canonical: url },
+    alternates: {
+      canonical: url,
+      types: { "application/rss+xml": [{ url: absoluteUrl("/feed.xml"), title: `${SITE.name} — בלוג` }] },
+    },
     robots: input.noindex
       ? { index: false, follow: false }
       : { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large" } },
@@ -37,6 +46,7 @@ export function buildMetadata(input: MetaInput = {}): Metadata {
       description,
       url,
       locale: SITE.locale,
+      ...(images ? { images } : {}),
       ...(input.publishedTime ? { publishedTime: input.publishedTime } : {}),
     },
     twitter: {
@@ -44,6 +54,7 @@ export function buildMetadata(input: MetaInput = {}): Metadata {
       title,
       description,
       site: SITE.twitter,
+      ...(images ? { images } : {}),
     },
   };
 }
@@ -99,6 +110,8 @@ export function productJsonLd(opts: {
   currency?: "ILS" | "USD";
   url: string;
   description?: string;
+  image?: string | null;
+  sku?: string;
 }) {
   const node: Record<string, unknown> = {
     "@context": "https://schema.org",
@@ -108,6 +121,8 @@ export function productJsonLd(opts: {
     category: opts.category,
     url: absoluteUrl(opts.url),
   };
+  if (opts.sku) node.sku = opts.sku;
+  if (opts.image) node.image = absoluteUrl(opts.image);
   if (opts.description) node.description = opts.description;
   if (opts.price != null) {
     node.offers = {
@@ -127,8 +142,9 @@ export function articleJsonLd(opts: {
   path: string;
   date: string;
   author: string;
+  image?: string | null;
 }) {
-  return {
+  const node: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: opts.title,
@@ -140,6 +156,8 @@ export function articleJsonLd(opts: {
     publisher: { "@type": "Organization", name: SITE.name, logo: { "@type": "ImageObject", url: absoluteUrl("/icon.svg") } },
     mainEntityOfPage: { "@type": "WebPage", "@id": absoluteUrl(opts.path) },
   };
+  if (opts.image) node.image = absoluteUrl(opts.image);
+  return node;
 }
 
 export function faqJsonLd(items: { q: string; a: string }[]) {

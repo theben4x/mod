@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { absoluteUrl } from "@/lib/site";
 import { CATEGORY_ORDER } from "@/data/categories";
 import { allComponents } from "@/lib/data";
+import { componentImage } from "@/lib/images";
 import { getAllPosts } from "@/lib/content";
 import { POPULAR_COMPARISONS } from "@/data/popular";
 import { buildSlug } from "@/lib/compare";
@@ -24,12 +25,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  const components: MetadataRoute.Sitemap = allComponents().map((c) => ({
-    url: absoluteUrl(`/component/${c.id}`),
-    lastModified: now,
-    changeFrequency: "weekly",
-    priority: 0.6,
-  }));
+  const components: MetadataRoute.Sitemap = allComponents().map((c) => {
+    const img = componentImage(c.id);
+    return {
+      url: absoluteUrl(`/component/${c.id}`),
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.6,
+      ...(img ? { images: [absoluteUrl(img)] } : {}),
+    };
+  });
 
   const comparisons: MetadataRoute.Sitemap = POPULAR_COMPARISONS.map((pc) => ({
     url: absoluteUrl(`/compare/${buildSlug(pc.a, pc.b)}`),
@@ -43,6 +48,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(p.date),
     changeFrequency: "monthly",
     priority: 0.6,
+    ...(p.cover ? { images: [absoluteUrl(p.cover)] } : {}),
   }));
 
   return [...staticPages, ...categories, ...components, ...comparisons, ...posts];

@@ -4,6 +4,9 @@ import type { BlogPost } from "@/lib/types";
 export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "rtx-5090-vs-rtx-4090",
+    cover: "/blog/rtx-5090-vs-rtx-4090.jpg",
+    coverCredit: "Geekerwan · CC BY 3.0",
+    coverSource: "https://commons.wikimedia.org/wiki/File:Leistungsanalyse_NVIDIA_GeForce_RTX_4090_(Geekerwan)_02_cropped.jpg",
     title: "RTX 5090 מול RTX 4090: האם שווה לשדרג?",
     excerpt:
       "הדור החדש של NVIDIA מביא 32GB GDDR7 וקפיצה משמעותית בביצועים. בדקנו האם המעבר מ-RTX 4090 מצדיק את ההשקעה.",
@@ -36,6 +39,9 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "how-much-vram-2026",
+    cover: "/blog/how-much-vram-2026.jpg",
+    coverCredit: "Verte95 · CC BY-SA 4.0",
+    coverSource: "https://commons.wikimedia.org/wiki/File:AMD_RX_6900XT_.jpg",
     title: "כמה VRAM צריך כרטיס מסך ב-2026?",
     excerpt:
       "8GB, 12GB או 16GB? כמות הזיכרון בכרטיס המסך הפכה לשיקול מרכזי. מדריך מלא לפי רזולוציה וסוג שימוש.",
@@ -64,6 +70,9 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "ryzen-x3d-vs-intel-gaming",
+    cover: "/blog/ryzen-x3d-vs-intel-gaming.jpg",
+    coverCredit: "ICCTsHeY · CC BY-SA 4.0",
+    coverSource: "https://commons.wikimedia.org/wiki/File:Ryzen3pro2100ge-ph-gerald.jpg",
     title: "Ryzen X3D מול Intel: מי מנצח בגיימינג?",
     excerpt:
       "טכנולוגיית 3D V-Cache של AMD שינתה את משחק הגיימינג. השוונו את ה-X3D מול הדגלים של Intel.",
@@ -94,6 +103,9 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "pcie-5-ssd-worth-it",
+    cover: "/blog/pcie-5-ssd-worth-it.jpg",
+    coverCredit: "David290 · CC BY-SA 4.0",
+    coverSource: "https://commons.wikimedia.org/wiki/File:Intel_512G_M2_Solid_State_Drive.jpg",
     title: "PCIe 5.0 SSD — האם ההשקעה משתלמת?",
     excerpt:
       "כונני Gen5 מגיעים ל-14,500MB/s, אך גם עולים יותר ומתחממים. בדקנו מתי באמת כדאי לשלם על המהירות.",
@@ -127,6 +139,9 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "how-many-watts-psu",
+    cover: "/blog/how-many-watts-psu.jpg",
+    coverCredit: "Wikimedia Commons · נחלת הכלל",
+    coverSource: "https://commons.wikimedia.org/wiki/File:PSU-Open1.jpg",
     title: "כמה וואט צריך ספק הכוח שלי?",
     excerpt:
       "בחירת ספק כוח לא מספיק חזק היא טעות יקרה. מדריך פשוט לחישוב ההספק הנכון לפי הרכיבים שלכם.",

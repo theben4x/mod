@@ -13,10 +13,12 @@ interface Props {
   initialCategory?: CategoryKey;
   initialA?: Component | null;
   initialB?: Component | null;
+  /** מחרוזת חיפוש ראשונית לשדה הראשון (מגיע מ-?q= / Sitelinks Searchbox) */
+  initialQuery?: string;
   autoNavigate?: boolean;
 }
 
-export function ComparePicker({ initialCategory = "gpu", initialA = null, initialB = null }: Props) {
+export function ComparePicker({ initialCategory = "gpu", initialA = null, initialB = null, initialQuery = "" }: Props) {
   const router = useRouter();
   const [category, setCategory] = useState<CategoryKey>(initialCategory);
   const [a, setA] = useState<Component | null>(initialA);
@@ -122,6 +124,7 @@ export function ComparePicker({ initialCategory = "gpu", initialA = null, initia
           category={category}
           excludeId={b?.id}
           onSelect={setA}
+          initialQuery={initialQuery}
         />
 
         <div className="flex items-center justify-center py-1 sm:py-0">
@@ -171,11 +174,12 @@ interface FieldProps {
   category: CategoryKey;
   excludeId?: string;
   onSelect: (c: Component | null) => void;
+  initialQuery?: string;
 }
 
-function PickerField({ label, value, category, excludeId, onSelect }: FieldProps) {
-  const [query, setQuery] = useState("");
-  const [open, setOpen] = useState(false);
+function PickerField({ label, value, category, excludeId, onSelect, initialQuery = "" }: FieldProps) {
+  const [query, setQuery] = useState(initialQuery);
+  const [open, setOpen] = useState(Boolean(initialQuery));
   const [active, setActive] = useState(0);
   const ref = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);

@@ -16,7 +16,7 @@ export const metadata: Metadata = buildMetadata({
 });
 
 interface Props {
-  searchParams: Promise<{ cat?: string; a?: string; b?: string }>;
+  searchParams: Promise<{ cat?: string; a?: string; b?: string; q?: string }>;
 }
 
 export default async function CompareBuilderPage({ searchParams }: Props) {
@@ -40,7 +40,7 @@ export default async function CompareBuilderPage({ searchParams }: Props) {
       </div>
 
       <div className="mx-auto mt-8 max-w-3xl">
-        <ComparePicker initialCategory={category} initialA={a} initialB={b} />
+        <ComparePicker initialCategory={category} initialA={a} initialB={b} initialQuery={sp.q} />
       </div>
 
       <section className="mt-16">

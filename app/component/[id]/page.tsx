@@ -8,6 +8,7 @@ import { CategoryGlow } from "@/components/CategoryGlow";
 import { PriceWithTime } from "@/components/PriceTag";
 import { JsonLd } from "@/components/JsonLd";
 import { allComponents, getByCategory, getComponent, relatedComponents } from "@/lib/data";
+import { componentImage } from "@/lib/images";
 import { getCategory } from "@/data/categories";
 import { getPrice } from "@/lib/prices/provider";
 import { formatSpec } from "@/lib/format";
@@ -37,6 +38,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `${c.name} — מפרט טכני מלא, ביצועים ומחיר מעודכן. ${c.blurb ?? cat.tagline}.`,
     path: `/component/${c.id}`,
     keywords: [c.name, c.brand, cat.nameHe, "מפרט", "מחיר"],
+    image: componentImage(c.id) ?? undefined,
+    imageAlt: c.name,
   });
 }
 
@@ -73,6 +76,8 @@ export default async function ComponentPage({ params }: Props) {
             price: price.ils,
             url: `/component/${c.id}`,
             description: c.blurb,
+            image: componentImage(c.id),
+            sku: c.id,
           }),
         ]}
       />
